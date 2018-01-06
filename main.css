@@ -1,0 +1,100 @@
+body{
+  background: url("images/10.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  align-content: center;
+}
+.paraDive{
+    font-size: 18px;
+}
+h2{
+  text-align: center;
+  color: green;
+}
+h1{
+  background:#414C7C;
+  text-align: center;
+  padding: 10px;
+}
+.flex{
+  display: flex;
+  box-sizing: border-box;
+  }
+
+.mainDiv {
+
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+    max-width: 20%;
+    min-width: 20%;
+    max-height:
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box
+    }
+img{
+   max-width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+@media only screen and (max-width: 420px)
+ {
+   body{
+     width: 420px;
+
+   }
+   .paraDive{
+     font-size: 18px;
+   }
+   .flex{
+     flex-wrap: wrap;
+   }
+   .mainDiv{
+     max-width: 320px;
+     min-width: 320px;
+   }
+   img{
+     max-width: 320px;
+   }
+.videoDiv{
+  max-width: 320px;
+  }
+  video{
+    max-width: 320px;
+  }
+
+      }
+@media only screen and (max-width:720px) {
+  .flex{
+    flex-wrap: wrap;
+  }
+  .mainDiv{
+    max-width: 330px;
+    min-width: 330px;
+  }
+  img{
+    max-width:330px;
+  }
+
+}
+.videoDiv{
+  padding: 15px;
+  width: 30%;
+  height: 20%;
+  float: left;
+
+}
+.videoDiv1{
+  padding: 15px;
+  width: 30%;
+  height: 20%;
+  float: right;
+
+}
+video{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 black;
+}
